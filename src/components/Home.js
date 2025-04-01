@@ -4,7 +4,7 @@ import './Home.css';
 const Home = () => {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
+    location: '',
     phone: '',
     message: ''
   });
@@ -14,7 +14,7 @@ const Home = () => {
     
     // Format the message for WhatsApp
     const whatsappMessage = `Name: ${formData.name}%0A` +
-      `Email: ${formData.email}%0A` +
+      `Email: ${formData.location}%0A` +
       `Phone: ${formData.phone}%0A` +
       `Message: ${formData.message}`;
 
@@ -27,7 +27,7 @@ const Home = () => {
     // Clear the form
     setFormData({
       name: '',
-      email: '',
+      location: '',
       phone: '',
       message: ''
     });
@@ -193,10 +193,10 @@ const Home = () => {
                 required
               />
               <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                value={formData.email}
+                type="text"
+                name="location"
+                placeholder="Your Location"
+                value={formData.location}
                 onChange={handleChange}
                 required
               />
