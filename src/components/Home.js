@@ -98,7 +98,7 @@ const Home = () => {
 
       {/* Applications Section */}
       <section className="applications-section">
-        <h2>Applications of Polygranite</h2>
+        <h2>Where Polygranite can be installed</h2>
         <div className="applications-grid">
           <div className="application-card">
             <h3>Interior Walls</h3>
