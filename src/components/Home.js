@@ -19,7 +19,7 @@ const Home = () => {
       `Message: ${formData.message}`;
 
     // Create WhatsApp URL with the message
-    const whatsappUrl = `https://wa.me/919642745652?text=${whatsappMessage}`;
+    const whatsappUrl = `https://wa.me/919014915068?text=${whatsappMessage}`;
 
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
